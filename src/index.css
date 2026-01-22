@@ -21,56 +21,6 @@ body {
   position: relative;
 }
 
-/* Status Bar */
-.status-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 20px;
-  height: 44px;
-  background: #fff;
-}
-
-.status-left {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.time {
-  font-size: 15px;
-  font-weight: 600;
-  color: #000;
-}
-
-.arrow-up-icon {
-  width: 8px;
-  height: 8px;
-  color: #000;
-}
-
-.status-right {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.status-icon {
-  width: 18px;
-  height: 12px;
-  color: #000;
-}
-
-.wifi-icon {
-  width: 18px;
-  height: 14px;
-}
-
-.battery-icon {
-  width: 25px;
-  height: 12px;
-}
-
 /* Main Content */
 .main-content {
   flex: 1;
